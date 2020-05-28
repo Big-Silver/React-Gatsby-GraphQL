@@ -26,15 +26,13 @@ export default function Layout({ children }) {
   }
 
   return (
-    <div>
-      <div className={classes.root}>
-        <Header open={open} drawerOpen={handleDrawerOpen} />
-        <Navbar open={open} drawerClose={handleDrawerClose} />
-        <main className={classes.content}>
-          {children}
-          <Footer />
-        </main>
-      </div>
+    <div className={classes.root}>
+      <Header open={open} drawerOpen={handleDrawerOpen} />
+      <Navbar open={open} drawerClose={handleDrawerClose} />
+      <main className={classes.content}>
+        {children}
+        <Footer />
+      </main>
     </div>
   )
 }
