@@ -8,6 +8,13 @@ const { createHttpLink } = require(`apollo-link-http`)
 
 module.exports = {
   plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-top-layout',
+    {
+      resolve: 'gatsby-plugin-material-ui',
+      options: {
+      },
+    },
     {
       resolve: `gatsby-source-graphql`,
       options: {
@@ -28,4 +35,7 @@ module.exports = {
       },
     },
   ],
+  siteMetadata: {
+    title: 'Gatsby Repository',
+  },
 }
