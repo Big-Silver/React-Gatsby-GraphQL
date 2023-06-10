@@ -19,7 +19,7 @@
     "@material-ui/styles": "^4.10.0",
     "axios": "^0.19.2",
     "clsx": "^1.1.0",
-    "gatsby": "^2.21.37",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-material-ui": "^2.1.9",
     "gatsby-plugin-react-helmet": "^3.3.2",
     "gatsby-source-graphql": "^2.5.2",
